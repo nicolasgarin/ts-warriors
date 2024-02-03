@@ -1,0 +1,61 @@
+@import "variables.scss";
+
+@font-face {
+    font-family: "Dangrek";
+    src: local("Dangrek"), url("./assets/fonts/Dangrek-Regular.ttf");
+}
+
+* {
+    font-family: Dangrek;
+}
+
+.app {
+    background-color: $blanco;
+}
+
+.header {
+    background-color: $rojo-dk;
+}
+
+.curved {
+    position: relative;
+    background: $rojo-dk;
+    height: $headerHeight;
+    border-bottom-left-radius: 50% 42%;
+    border-bottom-right-radius: 50% 42%;
+  }
+
+//FOOTER
+footer {
+    min-height: $footerHeight;
+    background-color: $rojo-dk;
+    padding: 30px 0;
+
+    .texto-footer {
+        color: $blanco;
+        font-weight: 500;
+    }
+}
+
+  .main {
+    padding: 30px 0;
+  }
+
+.title {
+    text-align: center;
+    padding: 15px;
+    color: $blanco;
+}
+
+
+.char-card {
+    border-radius: 8px;
+    padding: 15px;
+    background-color: $gris;
+    margin: 15px;
+  }
+  
+  .char-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
